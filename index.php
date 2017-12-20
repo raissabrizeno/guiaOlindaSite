@@ -14,6 +14,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -71,7 +73,7 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading" style="text-shadow: 0px 0px 20px black;">Guia Olinda</h1>
+                <h1 id="homeHeading" style="text-shadow: 0px 0px 20px black;">Olinda Turismo</h1>
                 <hr>
                 <p style="color:black; background: white; box-shadow: 0px 0px 20px black;">Descubra os pontos turísticos mais interessantes da cidade e saiba como chegar a eles.</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Saiba mais</a>
@@ -131,7 +133,7 @@
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-2 col-sm-6">
                     <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box" style="height: 229px; overflow: hidden;">
                         <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="" style="width: auto; height: 100%; max-width: unset;">
                         <div class="portfolio-box-caption">
@@ -146,7 +148,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-2 col-sm-6">
                     <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box" style="height: 229px; overflow: hidden;">
                         <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="" style="width: auto; height: 100%; max-width: unset;">
                         <div class="portfolio-box-caption">
@@ -161,7 +163,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-2 col-sm-6">
                     <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box" style="height: 229px; overflow: hidden;">
                         <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="" style="width: auto; height: 100%; max-width: unset;">
                         <div class="portfolio-box-caption">
@@ -176,7 +178,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-2 col-sm-6">
                     <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box" style="height: 229px; overflow: hidden;">
                         <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="" style="width: auto; height: 100%; max-width: unset;">
                         <div class="portfolio-box-caption">
@@ -191,6 +193,36 @@
                         </div>
                     </a>
                 </div>
+                <div class="col-lg-2 col-sm-6">
+                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box" style="height: 229px; overflow: hidden;">
+                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="" style="width: auto; height: 100%; max-width: unset;">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Categoria
+                                </div>
+                                <div class="project-name">
+                                    Carnaval
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box" style="height: 229px; overflow: hidden;">
+                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="" style="width: auto; height: 100%; max-width: unset;">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Categoria
+                                </div>
+                                <div class="project-name">
+                                    Eventos
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -198,8 +230,14 @@
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
-                <h2>Download gratuito na Google Play store!</h2>
-                <a href="javaScript:alert('Em breve!');" class="btn btn-default btn-xl sr-button">Baixe agora!</a>
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                  <h2>Download gratuito na  Apple store!</h2>
+                  <a href="javaScript:alert('Em breve!');" class="btn btn-default btn-xl sr-button">Baixe agora!</a>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                  <h2>Download gratuito na Play store!</h2>
+                  <a href="javaScript:alert('Em breve!');" class="btn btn-default btn-xl sr-button">Baixe agora!</a>
+                </div>
             </div>
         </div>
     </aside>
@@ -219,6 +257,27 @@
             </div>
         </div>
     </section>
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+              <div class="col-lg-6 col-sm-6 col-md-6">
+                  <h2>Desenvolvido por:</h2>
+                  <!--  <img src="img/logopref.jpg"/>
+                  <img src="img/logosecretaria.jpg"/>
+                  <img src="img/ufrpe.png"/ >-->
+              </div>
+              <div class="col-lg-6 col-sm-6 col-md-6">
+                  <h2>Equipe:</h2>
+                  <h5>François Michell (francoismichell95@gmail.com)</h5>
+                  <h5>Guilherme Araujo (guilherme.matheus.a@gmail.com)</h5>
+                  <h5>Gabriele Pessoa (gabriele.pessoa@gmail.com )</h5>
+                  <h5>Lisandra Cruz (lsansouza@gmail.com)</h5>
+                  <h5>Gabriele Pessoa (gabriele.pessoa@gmail.com )</h5>
+              </div>
+
+            </div>
+        </div>
+    </aside>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
